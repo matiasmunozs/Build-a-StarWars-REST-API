@@ -26,7 +26,7 @@ CORS(app)
 def root():
     return render_template('index.html')
 
-#ruta Sarai
+
 @app.route('/user', methods=['POST'])
 def add_user():
 
